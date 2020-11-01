@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/whysoserious/CLionProjects/practice/AssistFunction.h
+iostream
+-
+vector
+-
+string
+-
+list
+-
+unordered_map
+-
+stack
+-
+utility
+-
+queue
+-
+
+/Users/whysoserious/CLionProjects/practice/main.cpp
+AssistFunction.h
+/Users/whysoserious/CLionProjects/practice/AssistFunction.h
+iostream
+-
+vector
+-
+string
+-
+list
+-
+
